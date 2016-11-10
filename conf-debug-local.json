@@ -1,0 +1,31 @@
+# debug local config
+{
+    "mode": "debug-local",
+    "debug": true,
+    "project": "boledate",
+
+# host will be updated by the env.host
+    "host": "127.0.0.1",
+
+# mysql
+    "use_mysql_pipeline": false,
+    "mysql_host": "",
+    "mysql_user": "",
+    "mysql_db": "",
+    "mysql_password": "",
+    "tb_name": "items",
+
+# redis
+    "use_redis_pipeline": false,
+    "redis_host": "localhost",
+    "redis_port": "6379",
+    "redis_password": "",
+    "redis_db": "0",
+
+# log
+    "log_level": "DEBUG",
+    "log_file": "",
+
+# proxy
+    "use_proxy_middleware": false
+}

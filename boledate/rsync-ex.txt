@@ -1,0 +1,9 @@
+*.json
+*.pyc
+.svn/
+.scrapy/
+build/
+boledate/boledate/spiders/
+boledate/project.egg-info/
+boledate/boledate.egg-info/
+boledate/.scrapy/

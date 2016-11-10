@@ -1,0 +1,38 @@
+# release config
+{
+    "mode": "release",
+    "debug": false,
+    "project": "boledate",
+
+
+# host will be updated by the env.host
+    "host": "127.0.0.1",
+
+# mysql
+    "use_mysql_pipeline": false,
+    "mysql_host": "",
+    "mysql_user": "",
+    "mysql_db": "",
+    "mysql_password": "",
+    "tb_name": "items",
+
+# kafka
+    "use_kafka_pipeline": false,
+    "kafka_host": "your-kafka-host",
+
+# redis
+    "redis_host": "your.redis.host",
+    "redis_port": "your.redis.port",
+    "redis_password": "your.redis.password",
+    "redis_db": "0",
+
+# redis pipeline
+    "use_redis_pipeline": false,
+
+# log
+    "log_level": "INFO",
+    "log_file": "",
+
+# proxy
+    "use_proxy_middleware": false
+}

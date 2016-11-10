@@ -1,0 +1,7 @@
+*.pyc
+*.py#
+*.py~
+conf-release-local.json
+boledate/.scrapy
+boledate/build/
+boledate/boledate.egg-info/
